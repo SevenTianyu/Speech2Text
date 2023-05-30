@@ -3,12 +3,12 @@
 ### 申请api
 #### 地址：https://www.xfyun.cn/services/lfasr
 如图，个人开发者可以免费申请5个小时的用量。
-![](src/1.png)
+![1](src/1.png)
 ### 环境配置
 python 3.6
 ### 使用方式
 1. main.py中添加自己的appid和secret_key
-   ![](src/2.png)
+   ![2](src/2.png)
    <pre>
     def main(audio, output):
         api = RequestApi(appid="在此处添加",
@@ -17,7 +17,7 @@ python 3.6
     '''
     </pre>
 2. 确认好录音文件的目录位置，win系统记得使用r前缀
-   ![](src/3.png)
+   ![3](src/3.png)
 3. ```python main.py``` 运行
    - orderResult字段是识别的结果，字符串类型，具体解析方法如下：
    <pre>
